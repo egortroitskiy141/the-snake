@@ -82,6 +82,7 @@ class Apple(GameObject):
 class Snake(GameObject):
 
     def __init__(self, position=None, body_color=SNAKE_COLOR):
+        """Инициализация змейки."""
         if position is None:
             position = (
                 (GRID_WIDTH // 2) * GRID_SIZE,
